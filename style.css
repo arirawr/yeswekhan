@@ -1,9 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Black+Ops+One|Roboto+Condensed:400,700);
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   font-family: Roboto Condensed, Roboto, Helvetica Neue, Arial, sans-serif;
   color: #eee;
   background-color: #222;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 h1 {
   font-family: Black Ops One;
@@ -25,6 +32,9 @@ h2 {
   text-align: center; }
 
 /*grid*/
+.padded {
+  padding: 80px; }
+
 /*.row {
   display: flex;
   flex-direction: row;
@@ -65,12 +75,20 @@ h2 {
   width: 60%;
   float: left; }
 
+/*sections*/
+.divider {
+  height: 20px;
+  width: 100%;
+  background-color: orangered;
+  margin: 20px 0; }
+
 /*images*/
 #engineer {
   width: 100%; }
   #engineer svg {
     fill: #eee; }
 
+/*animations*/
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }

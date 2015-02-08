@@ -1,10 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Black+Ops+One|Roboto+Condensed:400,700);
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Roboto Condensed, Roboto, Helvetica Neue, Arial, sans-serif;
   color: #eee;
   background-color: #222;
   padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -31,6 +39,10 @@ h2 {
 }
 
 /*grid*/
+
+.padded {
+  padding: 80px;
+}
 
 /*.row {
   display: flex;
@@ -80,6 +92,15 @@ h2 {
   float: left;
 }
 
+/*sections*/
+
+.divider {
+  height: 20px;
+  width: 100%;
+  background-color: orangered;
+  margin: 20px 0;
+}
+
 /*images*/
 
 #engineer {
@@ -88,6 +109,8 @@ h2 {
     fill: #eee;
   }
 }
+
+/*animations*/
 
 @-webkit-keyframes rotate {
   from {
