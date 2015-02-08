@@ -13,6 +13,7 @@ body {
   background-color: #1a1a1a;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .orange {
@@ -28,7 +29,7 @@ p {
 
 h1 {
   font-family: Black Ops One;
-  font-size: 200px;
+  font-size: 180px;
   letter-spacing: 5px;
   text-align: center;
   display: inline-block;
@@ -43,7 +44,7 @@ h2 {
 }
 
 .big-text {
-  font-size: 180px;
+  font-size: 160px;
   text-align: center;
 }
 
@@ -143,11 +144,11 @@ section {
 
 .overlay {
     position:absolute !important;
-    top:310px;
+    top:286px;
     left:0;
     right:0;
     bottom:0;
-    height: 100vh;
+    height: 90vh;
     background-color:rgba(0, 0, 0, 0.85);
     z-index:0 !important;
     color:white;
@@ -162,11 +163,11 @@ section {
   }
   .overlay {
     position:absolute !important;
-    top:310px;
+    top:286px;
     left:0;
     right:0;
     bottom:0;
-    height: 100vh;
+    height: 90vh;
     background-color:rgba(0, 0, 0, 0.7);
     z-index:0 !important;
     color:white;
@@ -183,7 +184,7 @@ section {
     left:0;
     right:0;
     bottom:0;
-    height: 100vh;
+    height: 90vh;
     background-color:rgba(0, 0, 0, 0.7);
     z-index:0 !important;
     color:white;
@@ -225,15 +226,24 @@ section {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-
   }
   to { 
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    transform: rotate(360deg);
     -moz-transform: rotate(360deg);
   }
 }
+
 #rotate img
 {
     
