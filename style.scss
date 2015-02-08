@@ -54,6 +54,12 @@ h3 {
   padding: 0;
 }
 
+.number {
+  font-family: Black Ops One;
+  font-size: 450px;
+  margin: auto 40px;
+}
+
 .big-text {
   font-size: 160px;
   text-align: center;
@@ -273,6 +279,10 @@ footer {
         text-decoration: underline;
         color: #333;
       }
+    }
+    span {
+      line-height: 60px;
+      display: inline;
     }
 }
 

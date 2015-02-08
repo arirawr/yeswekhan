@@ -44,6 +44,11 @@ h3 {
   margin: 0;
   padding: 0; }
 
+.number {
+  font-family: Black Ops One;
+  font-size: 450px;
+  margin: auto 40px; }
+
 .big-text {
   font-size: 160px;
   text-align: center; }
@@ -215,6 +220,9 @@ footer {
     #nav p a {
       text-decoration: underline;
       color: #333; }
+  #nav span {
+    line-height: 60px;
+    display: inline; }
 
 /*images*/
 #engineer {
