@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
 .orange {
   color: orangered;
 }
@@ -205,6 +210,27 @@ section {
     background-color:rgba(0, 0, 0, 0.7);
     z-index:0 !important;
     color:white;
+  }
+}
+
+#feature1 {
+
+}
+
+#feature2 {
+
+}
+
+#feature3 {
+
+}
+
+footer {
+  height: 50px;
+  color: #333;
+  padding: 0 40px;
+  * {
+    line-height: 50px;
   }
 }
 

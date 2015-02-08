@@ -13,6 +13,10 @@ body {
   margin: 0;
   overflow-x: hidden; }
 
+a {
+  color: #eee;
+  text-decoration: none; }
+
 .orange {
   color: orangered; }
 
@@ -168,6 +172,13 @@ section {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 0 !important;
     color: white; }
+
+footer {
+  height: 50px;
+  color: #333;
+  padding: 0 40px; }
+  footer * {
+    line-height: 50px; }
 
 /*images*/
 #engineer {

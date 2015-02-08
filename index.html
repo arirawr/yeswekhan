@@ -92,20 +92,49 @@
  	</section>
  	<div class="divider"></div>
  	<section>
- 		<div class="col-33 pad-small hover">
+ 		<a href="#feature1"><div class="col-33 pad-small hover">
  			<h3>This.</h3>
- 		</div>
- 		<div class="col-33 pad-small hover">
- 			<h3>That.</h3>
- 		</div>
- 		<div class="col-33 pad-small hover">
- 			<h3>The other thing.</h3>
- 		</div>
+ 		</div></a>
+ 		<a href="#feature2"><div class="col-33 pad-small hover">
+ 			<h3>This.</h3>
+ 		</div></a>
+ 		<a href="#feature3"><div class="col-33 pad-small hover">
+ 			<h3>This.</h3>
+ 		</div></a>
  		<div class="clear"></div>
  	</section>
  	<div class="divider"></div>
+	<section id="feature1" class="light-section">
+	</section>
+	<div class="divider"></div>
+	<section id="feature2">
+	</section>
+ 	<div class="divider"></div>
+ 	<section id="feature3" class="light-section">
+	</section>
+	<div class="divider"></div>
 	<div class="title"><span class="big-text">#yeswe</span><h1>KHAN</h1></div>
 	<div class="divider"></div>
+	<footer>
+		<p>Site design by <a class="orange" href="http://ariari.io">Ari</a>, icons from <a class="orange" href="http://thenounproject.com">The Noun Project</a>
+	</footer>
+
+	<script type="text/javascript">
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+	</script>
 
  	</body>
 </html>
