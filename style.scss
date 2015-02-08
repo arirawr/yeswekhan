@@ -2,12 +2,91 @@
 
 body {
   font-family: Roboto Condensed, Roboto, Helvetica Neue, Arial, sans-serif;
+  color: #eee;
+  background-color: #222;
+  padding: 0;
 }
 
 h1 {
   font-family: Black Ops One;
-  font-size: 60px;
+  font-size: 200px;
+  letter-spacing: 5px;
   text-align: center;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+.big-text {
+  font-size: 180px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+/*grid*/
+
+/*.row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}*/
+
+.col-50 {
+  /*display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;*/
+  width: 50%;
+  float: left;
+}
+
+.col-25 {
+  width: 25%;
+  float: left;
+}
+
+.col-75 {
+  width: 75%;
+  float: left;
+}
+
+.col-33 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-66 {
+  width: 66.66%;
+  float: left;
+}
+
+.col-40 {
+  width: 40%;
+  float: left;
+}
+
+.col-60 {
+  width: 60%;
+  float: left;
+}
+
+/*images*/
+
+#engineer {
+  width: 100%;
+  svg {
+    fill: #eee;
+  }
 }
 
 @-webkit-keyframes rotate {
