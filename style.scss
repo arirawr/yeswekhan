@@ -129,10 +129,26 @@ h2 {
   background-color: orangered;
 }
 
+.overlay {
+    position:absolute !important;
+    top:290px;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.85);
+    z-index:0 !important;
+    color:white;
+}
+
 #intro {
   height: 100vh;
   background-image: url(file:///Users/arielle/Documents/allcode/yeswekhan/images/placeholderman.jpg);
   background-size: cover;
+  * {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 #circuit {
