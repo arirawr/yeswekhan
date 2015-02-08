@@ -98,10 +98,17 @@ h2 {
   clear: both; }
 
 /*sections*/
+section {
+  height: 90vh; }
+
 .divider {
   height: 20px;
   width: 100%;
   background-color: orangered; }
+
+.light-section {
+  background-color: #eee;
+  color: #1a1a1a; }
 
 .overlay {
   position: absolute !important;
@@ -115,7 +122,6 @@ h2 {
   color: white; }
 
 #intro {
-  height: 100vh;
   background-image: url("images/placeholderman.jpg");
   background-size: cover; }
   #intro * {
@@ -135,8 +141,7 @@ h2 {
 #circuit {
   background-image: url("images/circuit.jpg");
   background-size: cover;
-  width: 100%;
-  height: 100vh; }
+  width: 100%; }
   #circuit .overlay {
     position: absolute !important;
     top: 1930px;
@@ -154,16 +159,32 @@ h2 {
   #engineer svg {
     fill: #eee; }
 
+#gear {
+  width: 100%; }
+  #gear svg {
+    fill: #1a1a1a;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -moz-animation-name: rotate;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-timing-function: linear; }
+
 /*animations*/
 @-webkit-keyframes rotate {
   from {
-    -webkit-transform: rotate(0deg); }
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg); }
   to {
-    -webkit-transform: rotate(360deg); } }
-#rotate img {
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear; }
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg); } }
 
 /*# sourceMappingURL=style.css.map */
