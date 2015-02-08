@@ -15,7 +15,16 @@ body {
   margin: 0;
 }
 
+.orange {
+  color: orangered;
+}
+
 /*text*/
+
+p {
+  padding: 0;
+  margin: 0;
+}
 
 h1 {
   font-family: Black Ops One;
@@ -29,6 +38,8 @@ h1 {
 
 h2 {
   font-size: 80px;
+  margin: 0 0 40px 0;
+  padding: 0;
 }
 
 .big-text {
@@ -40,6 +51,10 @@ h2 {
   text-align: center;
 }
 
+.emphasis-text {
+  font-size: 32px;
+}
+
 .feature-text {
   font-size: 22px;
 }
@@ -47,7 +62,7 @@ h2 {
 /*grid*/
 
 .padded {
-  padding: 80px;
+  padding: 100px 80px;
 }
 
 .margin {
@@ -112,6 +127,12 @@ h2 {
   height: 20px;
   width: 100%;
   background-color: orangered;
+}
+
+#intro {
+  height: 100vh;
+  background-image: url(file:///Users/arielle/Documents/allcode/yeswekhan/images/placeholderman.jpg);
+  background-size: cover;
 }
 
 #circuit {

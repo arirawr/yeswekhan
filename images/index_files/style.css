@@ -49,7 +49,7 @@ h2 {
 
 /*grid*/
 .padded {
-  padding: 100px 80px; }
+  padding: 80px; }
 
 .margin {
   margin: 20px 0; }
@@ -102,11 +102,6 @@ h2 {
   height: 20px;
   width: 100%;
   background-color: orangered; }
-
-#intro {
-  height: 100vh;
-  background-image: url(file:///Users/arielle/Documents/allcode/yeswekhan/images/placeholderman.jpg);
-  background-size: cover; }
 
 #circuit {
   background-image: url(file:///Users/arielle/Documents/allcode/yeswekhan/images/circuit.jpg);
