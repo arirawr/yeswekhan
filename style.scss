@@ -77,6 +77,20 @@ h3 {
   font-size: 22px;
 }
 
+.main-point {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.takeaway {
+  text-align: right;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 40px 30px;
+}
+
 /*grid*/
 
 .padded {
@@ -153,7 +167,7 @@ h3 {
 /*sections*/
 
 section {
-  height: 90vh;
+  height: 100vh;
 }
 
 .divider {
@@ -176,7 +190,7 @@ section {
     left:0;
     right:0;
     bottom:0;
-    height: 90vh;
+    height: 100vh;
     background-color:rgba(0, 0, 0, 0.85);
     z-index:0 !important;
     color:white;
@@ -200,7 +214,7 @@ section {
     left:0;
     right:0;
     bottom:0;
-    height: 90vh;
+    height: 100vh;
     background-color:rgba(0, 0, 0, 0.1);
     z-index:0 !important;
     color:#333;
@@ -297,6 +311,13 @@ footer {
   width: 80%;
   svg {
     fill: #eee;
+  }
+}
+
+#leader {
+  width: 80%;
+  svg {
+    fill: #1a1a1a;
   }
 }
 
